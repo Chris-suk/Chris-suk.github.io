@@ -1,1 +1,53 @@
 body {background-image: radial-gradient(circle, #ff7e5f, #feb47b, #8e6cb3);}
+
+/*Portfolio section id= works*/ 
+.navbar a{
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    padding: 30px 75px; 
+    display: inline-block;
+    text-align: center;
+    transform-origin: center;
+}
+
+.navbar a:hover {
+    background-color: lightsalmon;
+    border-radius: 5px;
+    transform-box: 2px;
+}
+    
+
+#header h1 {
+    color: #5a1362;
+    text-align: center;
+}
+
+#works h3 {
+   color: rgb(113, 11, 113);
+   text-align: center;
+}
+#works ol {
+    color: rgb(54, 12, 82);
+}
+
+img {
+padding-block: 0.5cm ;
+}
+
+figure {
+    background-color: #ff7e5f;
+    max-width: 10cm;
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+}
+    
+.container {
+    display: flex;             
+    justify-content: center;   
+    align-items: center;       
+    flex-direction: column;    
+}
