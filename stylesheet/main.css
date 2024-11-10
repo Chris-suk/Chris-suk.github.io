@@ -1,34 +1,63 @@
 body {background-image: radial-gradient(circle, #ff7e5f, #feb47b, #8e6cb3);}
 
-/*Portfolio section id= works*/ 
-.navbar a{
-    text-decoration: none;
-    color: white;
-    justify-content: center;
-    padding: 30px 75px; 
-    display: inline-block;
+/*Main title of the homepage and the font + homepage*/
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+#mainp h1 {
+    font-family: 'Concert One', sans-serif;
+    color: #5a1362;
     text-align: center;
-    transform-origin: center;
+  }
+
+#mainp p {
+    color: rgb(255, 255, 255);
+    font-family: 'Concert One', sans-serif;
 }
 
-.navbar a:hover {
-    background-color: lightsalmon;
-    border-radius: 5px;
-    transform-box: 2px;
-}
-    
-
-#header h1 {
+#aboutm h2 {
+    font-family: 'Concert One', sans-serif ;
     color: #5a1362;
     text-align: center;
 }
 
+#aboutm p {
+    color: azure;
+    font-family: 'Concert One', sans-serif;
+}
+
+/*nav bar*/
+.navbar a{
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    padding: 30px 115px; 
+    display: inline-block;
+    text-align: center;
+    transform-origin: center;
+    font-family: 'Concert One', sans-serif;
+}
+
+.navbar a:hover {
+    background-color: rgb(243, 137, 95);
+    border-radius: 5px;
+    transform-box: 2px;
+}
+    
+/*Portfolio section id= works*/ 
+#header h1 {
+    color: #5a1362;
+    text-align: center;
+    font-family: 'Concert One', sans-serif;
+}
+
 #works h3 {
-   color: rgb(113, 11, 113);
-   text-align: center;
+   color: rgb(176, 55, 11);
+   
+   font-family: 'Concert One', sans-serif;
 }
 #works ol {
     color: rgb(54, 12, 82);
+    font-family: 'Concert One', sans-serif;
+   
 }
 
 img {
