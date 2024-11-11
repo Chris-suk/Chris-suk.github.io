@@ -117,7 +117,7 @@ figcaption {
 /*Contact page*/ 
 
 #contact h1 {
-    color:#5a1362;
+    color:rgb(54, 12, 82);
     font-family: 'Concert One', sans-serif;
     text-align: center;
 }
@@ -161,20 +161,6 @@ caption {
     font-weight: bold;
 }
 
-/* footer*/
-
-/* Footer Styling */
-footer {
-    background-color: #34495e; /* Dark background for footer */
-    color: #fff; /* White text */
-    text-align: center; /* Center text */
-    padding: 20px;
-    position: fixed; /* Fixed at the bottom */
-    width: 100%;
-    bottom: 0;
-}
-
-   /* Footer */
 footer {
     background-color: #f17d00; 
     color: #fff; 
