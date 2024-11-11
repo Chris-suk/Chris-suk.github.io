@@ -161,6 +161,8 @@ caption {
     font-weight: bold;
 }
 
+/*footer*/ 
+
 footer {
     background-color: #f17d00; 
     color: #fff; 
@@ -168,6 +170,7 @@ footer {
     padding: 20px;
     position: fixed; 
     width: 100%;
+    box-sizing: content-box;
 }
 
 footer p {
@@ -175,7 +178,6 @@ footer p {
     font-family: 'Concert One', sans-serif;
 }
 
-}
 
 #bio, #contact, #works {
     display: flex;
