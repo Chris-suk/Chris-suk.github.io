@@ -106,3 +106,79 @@ figcaption {
     font-family: 'Concert One', sans-serif;
 }
 
+/*Contact page*/ 
+
+#contact h1 {
+    color:#5a1362;
+    font-family: 'Concert One', sans-serif;
+    text-align: center;
+}
+
+#email h3 {
+    color:#5a1362;
+    font-family: 'Concert One', sans-serif;
+}
+
+a { 
+    color: azure;
+    font-family: 'Concert One', sans-serif;
+}
+
+#av {
+    font-family: 'Concert One', sans-serif;
+    color: #ffffff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 40px;
+}
+
+
+th {
+    font-weight: bold; 
+    font-family: 'Concert One', sans-serif;
+    color: #5a1362;
+}
+
+td {
+    font-family: 'Concert One', sans-serif;
+    color: white;
+}
+
+caption {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* footer*/
+
+/* Footer Styling */
+footer {
+    background-color: #34495e; /* Dark background for footer */
+    color: #fff; /* White text */
+    text-align: center; /* Center text */
+    padding: 20px;
+    position: fixed; /* Fixed at the bottom */
+    width: 100%;
+    bottom: 0;
+}
+
+   /* Footer */
+footer {
+    background-color: #f17d00; 
+    color: #fff; 
+    text-align: center; 
+    padding: 20px;
+    position: fixed; 
+    width: 100%;
+}
+
+footer p {
+    margin: 0; 
+    font-family: 'Concert One', sans-serif;
+}
+
+}
