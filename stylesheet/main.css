@@ -44,7 +44,7 @@ body {background-image: radial-gradient(circle, #ff7e5f, #feb47b, #8e6cb3);}
 
 .navbar a:hover {
     background-color: rgb(243, 137, 95);  
-    transform: scale(1.1);                 
+    transform: scale(1.2);                 
 }
 
 /*Portfolio section id= works*/ 
