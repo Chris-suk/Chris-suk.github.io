@@ -83,6 +83,11 @@ figcaption {
 
 /*Bio page*/ 
 
+#facts h2 { 
+    color: rgb(54, 12, 82);
+    font-family: 'Concert One', sans-serif;
+}
+
 #bio h1 { 
     color: rgb(54, 12, 82);
     font-family: 'Concert One', sans-serif;
