@@ -59,9 +59,15 @@ body {background-image: radial-gradient(circle, #ff7e5f, #feb47b, #8e6cb3);}
    text-align: center;
    font-family: 'Concert One', sans-serif;
 }
-#works ol {
-    color: rgb(54, 12, 82);
+
+.pf h2 {
     font-family: 'Concert One', sans-serif;
+    color: #fff;
+}
+
+.pf h3 {
+    font-family: 'Concert One', sans-serif;
+    color: #fff;
 }
 
 figure { 
@@ -70,15 +76,16 @@ figure {
     margin-right: 10cm;
 }
 
+img {
+    align-content: center;
+    justify-content: center;
+
+}
 figcaption {
     text-align: center;
-}
-    
-.container {
-    display: flex;             
-    justify-content: center;   
-    align-items: center;       
-    flex-direction: column;    
+    align-items: center;
+    font-family: 'Concert One', sans-serif;
+    color: #fff;
 }
 
 /*Bio page*/ 
