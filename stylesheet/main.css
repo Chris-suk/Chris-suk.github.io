@@ -1,4 +1,9 @@
-body {background-image: radial-gradient(circle, #ff7e5f, #feb47b, #8e6cb3);}
+body {background-image: radial-gradient(circle, #ff7e5f, #feb47b, #8e6cb3);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column; 
+    margin: auto;
+}
 
 /*Main title of the homepage and the font + homepage*/
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
@@ -162,9 +167,10 @@ footer {
     color: #fff; 
     text-align: center; 
     padding: 30px;
-    position: fixed; 
+    position: relative; 
     width: 100%;
     box-sizing: content-box;
+     margin-top: auto;
 }
 
 footer p {
