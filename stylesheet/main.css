@@ -78,7 +78,7 @@ body {background-image: radial-gradient(circle, #ff7e5f, #feb47b, #8e6cb3);
 figure { 
     align-content: center;
     justify-content: center;
-    margin-right: 10cm;
+    text-align: center;
 }
 
 figcaption {
@@ -86,6 +86,10 @@ figcaption {
     color: #fff;
 }
 
+#logo img {
+    max-width: 100%;
+    max-height: 400px;
+}
 /*Bio page*/ 
 
 #facts h2 { 
