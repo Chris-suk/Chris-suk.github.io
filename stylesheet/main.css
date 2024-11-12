@@ -8,7 +8,7 @@ body {background-image: radial-gradient(circle, #ff7e5f, #feb47b, #8e6cb3);}
     text-align: center;
   }
 
-#mainp p {
+#name p {
     color: rgb(255, 255, 255);
     font-family: 'Concert One', sans-serif;
 }
@@ -119,9 +119,8 @@ figcaption {
 /*Contact page*/ 
 
 #contact h1 {
-    color:rgb(54, 12, 82);
     font-family: 'Concert One', sans-serif;
-    text-align: center;
+    color:#5a1362;
 }
 
 #email h3 {
