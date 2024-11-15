@@ -16,6 +16,9 @@ body {background-image: radial-gradient(circle, #ff7e5f, #feb47b, #8e6cb3);
 #name p {
     color: rgb(255, 255, 255);
     font-family: 'Concert One', sans-serif;
+    text-align: center;
+    padding-left: 2cm;
+    padding-right: 2cm;
 }
 
 #aboutm h2 {
@@ -27,6 +30,9 @@ body {background-image: radial-gradient(circle, #ff7e5f, #feb47b, #8e6cb3);
 #aboutm p {
     color: azure;
     font-family: 'Concert One', sans-serif;
+    text-align: center;
+    padding-left: 2cm;
+    padding-right: 2cm;
 }
 
 /*nav bar*/
@@ -68,22 +74,19 @@ body {background-image: radial-gradient(circle, #ff7e5f, #feb47b, #8e6cb3);
 .pf h2 {
     font-family: 'Concert One', sans-serif;
     color: #fff;
+    text-align: center;
 }
 
 .pf h3 {
     font-family: 'Concert One', sans-serif;
     color: #fff;
-}
-
-figure { 
-    align-content: center;
-    justify-content: center;
-    margin-right: 10cm;
+    text-align: center;
 }
 
 figcaption {
     font-family: 'Concert One', sans-serif;
     color: #fff;
+    text-align: center;
 }
 
 /*Bio page*/ 
@@ -91,27 +94,37 @@ figcaption {
 #facts h2 { 
     color: #5a1362;
     font-family: 'Concert One', sans-serif;
+    padding-left: 2cm;
+    padding-right: 2cm;
 }
 
 #bio h1 { 
     color: #5a1362;
     font-family: 'Concert One', sans-serif;
     text-align: center;
+    padding-left: 2cm;
+    padding-right: 2cm;
 }
 
 #list ul {
     color: rgb(255, 255, 255);
     font-family: 'Concert One', sans-serif;
+    padding-left: 2cm;
+    padding-right: 2cm;
 }
 
 #sait h2 {
     color: rgb(54, 12, 82);
     font-family: 'Concert One', sans-serif;
+padding-left: 2cm;
 }
 
 #sait p {
     color: rgb(255, 255, 255);
     font-family: 'Concert One', sans-serif;
+    padding-left: 2cm;
+    padding-right: 2cm;
+    text-align: center;
 }
 
 /*Contact page*/ 
@@ -119,27 +132,36 @@ figcaption {
 #contact h1 {
     font-family: 'Concert One', sans-serif;
     color:#5a1362;
+    padding-left: 2cm;
+    padding-right: 2cm;
 }
 
 #email h3 {
     color:#5a1362;
     font-family: 'Concert One', sans-serif;
+    padding-left: 2cm;
+    padding-right: 2cm;
 }
 
 a { 
     color: azure;
     font-family: 'Concert One', sans-serif;
+    padding-left: 2cm;
+    padding-right: 2cm;
 }
 
 #av {
     font-family: 'Concert One', sans-serif;
     color: #ffffff;
+    padding-left: 2cm;
+    padding-right: 2cm;
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 40px;
+    text-align: center;
 }
 
 
