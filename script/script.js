@@ -29,7 +29,7 @@ alertBtn.addEventListener ('click', () => {
 });
 //hover
 alertBtn.addEventListener ('mouseover', () => {
-    alertBtn.textContent = "Go head";
+    alertBtn.textContent = "Go ahead";
 });
 //regular text
 alertBtn.addEventListener('mouseout', () => {
