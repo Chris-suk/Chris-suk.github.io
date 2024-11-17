@@ -36,18 +36,23 @@
         </p>
     </section>
 
-<button id="btn=alert">
-Click me :)
-</button>
+    <button id="btn-alert">Click me please!</button>
 
-<script>
-    const btnAlert = document.getElementById9('btn-alert'); 
-    btnAlert.addEventListener('click', function(){
-        alert('Thanks for clicking!');
-    });
-</script>
+    <script>
+      const btnAlert = document.getElementById('btn-alert');
+      btnAlert.addEventListener('click', function() {
+        alert('Hello world!');
+      });
+      btnAlert.onmouseover = function () {
+        btnAlert.innerText = "Please??";
+      }
+      btnAlert.onmouseout = function () {
+        btnAlert.innerText = "Click me please";
+      }
+    </script>
 
-<h2 id="greetings"></h2>
+<title><h2 id="greetings"></h2></title>
+
 <style> 
 .morning {
     color: #5a1362;
