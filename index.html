@@ -35,8 +35,64 @@
             I like modern, retro and unique designs. 
         </p>
     </section>
- 
 
+<h2 id="greetings"></h2>
+<style> 
+.morning {
+    color: #5a1362;
+    text-align: center;
+    font-family: 'Concert One', sans-serif;
+    padding-block: 50px;
+}
+.morning-gif {
+    margin-top: 20px;
+    padding-block: 20px;
+    max-width: 5cm;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.afternoon {
+    color: azure;
+    text-align: center;
+    font-family: 'Concert One', sans-serif;
+    padding-block: 50px;
+}
+.evening {
+    color: azure;
+    text-align: center;
+    font-family: 'Concert One', sans-serif;
+    padding-block: 50px;
+}
+</style>
+
+<script> 
+ const currentHour = new Date().getHours();
+ const greetingElement = document.getElementById('greetings');
+ const morning = document.createElement ('giphy.webp'); 
+
+ const morningGif = document.createElement('img');
+    morningGif.classList.add('morning-gif'); 
+    morningGif.src ='https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3ZqYnU1M2F4eWE3MnFteDM3dHczODBjbDZwM2ZiZmJud3Qxa3l4eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jOzvyDcUTPOVM6WBFW/giphy.gif'
+    morningGif.alt = 'A cute white dog waving good morning with a banner that says I love you'; 
+
+/*morning*/
+if (currentHour < 12) {
+      greetingElement.textContent = "Good Morning!";
+      greetingElement.classList.add('morning');
+      /*morninghgif*/ 
+      greetingElement.appendChild(morningGif);
+    /*afternoon*/
+ } else if (currentHour >12 && currentHour <17) {
+    greetingElement.textContent = "Good Afternoon!"
+    greetingElement.classList.add('afternoon')
+    /*evening*/
+ } else if (currentHour >17) {
+    greetingElement.textContent = "Good Evening!"
+    greetingElement.classList.add('evening')
+ }
+</script>
 
 <footer>
     <p id="copyright"></p>
