@@ -4,7 +4,6 @@ const d = new Date();
 fYear.innerText = d.getFullYear();
 
 //greets 
-function greetBasedOnTime(){
     const currentHour = new Date (). getHours ();
     const greetingElement = document.getElementById('greetings');
     if (currentHour < 12) {
@@ -20,7 +19,7 @@ function greetBasedOnTime(){
 
         greetingElement.classList.add('evening');
       }
-}
+
 
 //button
 const alertBtn = document.getElementById('btn-alert');
