@@ -1,7 +1,7 @@
 //footer copyright
 const fYear = document.getElementById("copyright");
 const d = new Date();
-fYear.innertext = d.getFullYear();
+fYear.innerText = d.getFullYear();
 
 //greets 
 function greetBasedOnTime(){
@@ -25,13 +25,13 @@ function greetBasedOnTime(){
 //button
 const alertBtn = document.getElementById('btn-alert');
 alertBtn.addEventListener ('click', () => {
-    alert("Thanks for clicking!!1");
+    alert("Thanks for clicking!!");
 });
 //hover
 alertBtn.addEventListener ('mouseover', () => {
     alertBtn.textContent = "Go head";
 });
 //regular text
-alertBtn.addEventListener('mouseout', => {
+alertBtn.addEventListener('mouseout', () => {
     alertBtn.textContent = "Click me!";
 });
