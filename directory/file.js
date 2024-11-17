@@ -1,2 +1,5 @@
-console.log("November 17,2024: " + currentDate);
-const currentDate = new Date ().toLocaleDateString ();
+//footer copyright
+const fYear = document.getElementById("copyright");
+const d = new Date();
+fYear.textContent = d.getFullYear();
+
