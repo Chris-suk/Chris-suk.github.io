@@ -54,10 +54,19 @@
     margin-right: auto;
 }
 .afternoon {
-    color: azure;
+    color: #5a1362;
     text-align: center;
     font-family: 'Concert One', sans-serif;
     padding-block: 50px;
+}
+.afternoon-gif {
+    margin-top: 20px;
+    padding-block: 20px;
+    max-width: 5cm;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .evening {
     color: azure;
@@ -71,11 +80,16 @@
  const currentHour = new Date().getHours();
  const greetingElement = document.getElementById('greetings');
  const morning = document.createElement ('giphy.webp'); 
-
+/*morning gif*/
  const morningGif = document.createElement('img');
     morningGif.classList.add('morning-gif'); 
     morningGif.src ='https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3ZqYnU1M2F4eWE3MnFteDM3dHczODBjbDZwM2ZiZmJud3Qxa3l4eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jOzvyDcUTPOVM6WBFW/giphy.gif'
     morningGif.alt = 'A cute white dog waving good morning with a banner that says I love you'; 
+/*Afternoon gif*/ 
+    const afternoonGif = document.createElement('imga'); 
+afternoonGif.classList.add('afternoon-gif'); 
+afternoonGif.src = 'https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXV0emM2c29vNjdxbnMzNXd5ejJjOGtyMjNyOW11am1hZXp1MTY0ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hvfDsDi48kWAufPxaS/giphy.gif'
+afternoonGif.alt = 'A cute cat kissing the camera saying good afternoon';
 
 /*morning*/
 if (currentHour < 12) {
@@ -87,6 +101,8 @@ if (currentHour < 12) {
  } else if (currentHour >12 && currentHour <17) {
     greetingElement.textContent = "Good Afternoon!"
     greetingElement.classList.add('afternoon')
+    /*afternoongif*/
+    greetingElement.appendChild(afternoonGif);
     /*evening*/
  } else if (currentHour >17) {
     greetingElement.textContent = "Good Evening!"
