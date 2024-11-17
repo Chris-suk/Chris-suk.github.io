@@ -74,6 +74,15 @@
     font-family: 'Concert One', sans-serif;
     padding-block: 50px;
 }
+.evening-gif {
+    margin-top: 20px;
+    padding-block: 20px;
+    max-width: 5cm;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 </style>
 
 <script> 
@@ -90,7 +99,11 @@
 afternoonGif.classList.add('afternoon-gif'); 
 afternoonGif.src = 'https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXV0emM2c29vNjdxbnMzNXd5ejJjOGtyMjNyOW11am1hZXp1MTY0ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hvfDsDi48kWAufPxaS/giphy.gif'
 afternoonGif.alt = 'A cute cat kissing the camera saying good afternoon';
-
+/*evening gif*/
+const eveningGif = document.createElement('imgb');
+eveningGif.classList.add('evening-gif');
+eveningGif.src = 'https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDN0Y2x6OXVmYjR3ZzhsNzBpdHYwYzJia2xwNHFqYmZjYWJqa3kwZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/aVqxZlnnMcB3YBJljG/giphy.gif'
+afternoonGif.alt = 'A grey dog sleeping in the clouds'
 /*morning*/
 if (currentHour < 12) {
       greetingElement.textContent = "Good Morning!";
@@ -99,14 +112,16 @@ if (currentHour < 12) {
       greetingElement.appendChild(morningGif);
     /*afternoon*/
  } else if (currentHour >12 && currentHour <17) {
-    greetingElement.textContent = "Good Afternoon!"
-    greetingElement.classList.add('afternoon')
+    greetingElement.textContent = "Good Afternoon!";
+    greetingElement.classList.add('afternoon');
     /*afternoongif*/
     greetingElement.appendChild(afternoonGif);
     /*evening*/
  } else if (currentHour >17) {
-    greetingElement.textContent = "Good Evening!"
-    greetingElement.classList.add('evening')
+    greetingElement.textContent = "Good Evening!";
+    greetingElement.classList.add('evening');
+    /*evening gif*/
+    greetingElement.appendChild(eveningGif);
  }
 </script>
 
