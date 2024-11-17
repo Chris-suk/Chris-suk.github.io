@@ -6,7 +6,7 @@
     <title>Work Showcase</title>
     <link rel="stylesheet" href="stylesheet/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
-    <script src="directory/file.js"></script>
+    <script src="/directory/file.js" defer></script>
 </head>
 
 <nav class="navbar">
@@ -36,110 +36,9 @@
         </p>
     </section>
 
-    <button id="btn-alert">Click me please!</button>
-
-    <script>
-      const btnAlert = document.getElementById('btn-alert');
-      btnAlert.addEventListener('click', function() {
-        alert('Hello world!');
-      });
-      btnAlert.onmouseover = function () {
-        btnAlert.innerText = "Please??";
-      }
-      btnAlert.onmouseout = function () {
-        btnAlert.innerText = "Click me please";
-      }
-    </script>
+<button id= "btn-alert"> Click me!</button>
 
 <title><h2 id="greetings"></h2></title>
-
-<style> 
-.morning {
-    color: #5a1362;
-    text-align: center;
-    font-family: 'Concert One', sans-serif;
-    padding-block: 50px;
-}
-.morning-gif {
-    margin-top: 20px;
-    padding-block: 20px;
-    max-width: 5cm;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.afternoon {
-    color: #5a1362;
-    text-align: center;
-    font-family: 'Concert One', sans-serif;
-    padding-block: 50px;
-}
-.afternoon-gif {
-    margin-top: 20px;
-    padding-block: 20px;
-    max-width: 5cm;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.evening {
-    color: #5a1362;
-    text-align: center;
-    font-family: 'Concert One', sans-serif;
-    padding-block: 50px;
-}
-.evening-gif {
-    margin-top: 20px;
-    padding-block: 20px;
-    max-width: 5cm;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-</style>
-
-<script> 
- const currentHour = new Date().getHours();
- const greetingElement = document.getElementById('greetings');
- const morning = document.createElement ('giphy.webp'); 
-/*morning gif*/
- const morningGif = document.createElement('img');
-    morningGif.classList.add('morning-gif'); 
-    morningGif.src ='https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3ZqYnU1M2F4eWE3MnFteDM3dHczODBjbDZwM2ZiZmJud3Qxa3l4eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jOzvyDcUTPOVM6WBFW/giphy.gif'
-    morningGif.alt = 'A cute white dog waving good morning with a banner that says I love you'; 
-/*Afternoon gif*/ 
-    const afternoonGif = document.createElement('imga'); 
-afternoonGif.classList.add('afternoon-gif'); 
-afternoonGif.src = 'https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXV0emM2c29vNjdxbnMzNXd5ejJjOGtyMjNyOW11am1hZXp1MTY0ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hvfDsDi48kWAufPxaS/giphy.gif'
-afternoonGif.alt = 'A cute cat kissing the camera saying good afternoon';
-/*evening gif*/
-const eveningGif = document.createElement('imgb');
-eveningGif.classList.add('evening-gif');
-eveningGif.src = 'https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDN0Y2x6OXVmYjR3ZzhsNzBpdHYwYzJia2xwNHFqYmZjYWJqa3kwZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/aVqxZlnnMcB3YBJljG/giphy.gif'
-afternoonGif.alt = 'A grey dog sleeping in the clouds'
-/*morning*/
-if (currentHour < 12) {
-      greetingElement.textContent = "Good Morning!";
-      greetingElement.classList.add('morning');
-      /*morninghgif*/ 
-      greetingElement.appendChild(morningGif);
-    /*afternoon*/
- } else if (currentHour >12 && currentHour <17) {
-    greetingElement.textContent = "Good Afternoon!";
-    greetingElement.classList.add('afternoon');
-    /*afternoongif*/
-    greetingElement.appendChild(afternoonGif);
-    /*evening*/
- } else if (currentHour >17) {
-    greetingElement.textContent = "Good Evening!";
-    greetingElement.classList.add('evening');
-    /*evening gif*/
-    greetingElement.appendChild(eveningGif);
- }
-</script>
 
 <footer id="copyright">
     <p>&copy; Christine Suk 2024.</P>
