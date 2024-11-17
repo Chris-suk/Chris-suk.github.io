@@ -6,7 +6,7 @@
     <title>Work Showcase</title>
     <link rel="stylesheet" href="stylesheet/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
-
+    <script src="directory/file.js"></script>
 </head>
 
 <nav class="navbar">
@@ -36,10 +36,15 @@
         </p>
     </section>
  
-</body>
 
- <footer>
-    <p>Christine Suk 2024 Web comm </p>
+
+<footer>
+    <p id="copyright"></p>
 </footer>
-
+<script> 
+    const currentYear = new Date().getFullYear ();
+    document.getElementById("copyright").textContent = "(c) Christine Suk " + currentYear;
+    console.log("November 17,2024: " + currentDate);
+</script>
+</body>
 </html>
