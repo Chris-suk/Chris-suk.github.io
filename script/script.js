@@ -31,3 +31,12 @@ alertBtn.addEventListener ('mouseover', () => {
 alertBtn.addEventListener('mouseout', () => {
     alertBtn.textContent = "Click me!";
 });
+
+//console log
+const d = new Date ();
+const yyyy = d.getFullYear ();
+const month = d.getDate ();
+const months = ["Jan", "Feb", "Mar", "Apr", "May", "June", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+let mm = months[month];
+console.log ('${mm} ${dd} ${yyyy}');
