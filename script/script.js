@@ -3,15 +3,6 @@ const fYear = document.getElementById("copyright");
 const d = new Date();
 fYear.innerText = d.getFullYear();
 
-//console log
-
-const yyyy = d.getFullYear ();
-const month = d.getDate ();
-const months = ["Jan", "Feb", "Mar", "Apr", "May", "June", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-
-let mm = months[month];
-console.log ('${mm} ${dd} ${yyyy}');
-
 //greets 
     const currentHour = new Date (). getHours ();
     const greetingElement = document.getElementById('greetings');
@@ -40,18 +31,3 @@ alertBtn.addEventListener ('mouseover', () => {
 alertBtn.addEventListener('mouseout', () => {
     alertBtn.textContent = "Click me!";
 });
-
-//loop
-for (let i = 0; i <= 11; i++) {
-  const li = document.createElement("li");
-  if (i === 0) {
-    li.textContent = "odd";
-  }
-  else if (i % 2 === 0) {
-    li.textContent = "odd";
-  }
-  else {
-    li.textContent = "even";
-  }
-  document.getElementById(`numbers`).appendChild(li);
-};
