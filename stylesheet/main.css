@@ -206,3 +206,15 @@ footer p {
     flex-wrap: wrap;
     justify-content: space-between; 
 }
+/*button*/ 
+#btn-alert {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+/*loop*/ 
+#loop {
+    font-weight: bold; 
+    font-family: 'Concert One', sans-serif;
+    color: #5a1362;
+    text-align: center;
+}

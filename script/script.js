@@ -42,15 +42,16 @@ alertBtn.addEventListener('mouseout', () => {
 });
 
 //loop
-const olElement = document.getElementById('numbers'); 
-for (let i = 1; i <= 12; i++) {
-  const listItem = document.createElement('li');
-
-  if (i % 2 === 0) {
-    listItem.textContent = 'Even'; 
-  } else {
-    listItem.textContent = 'Odd'; 
+for (let i = 0; i <= 11; i++) {
+  const li = document.createElement("li");
+  if (i === 0) {
+    li.textContent = "odd";
   }
-  
-  olElement.appendChild(listItem);
-}
+  else if (i % 2 === 0) {
+    li.textContent = "odd";
+  }
+  else {
+    li.textContent = "even";
+  }
+  document.getElementById(`numbers`).appendChild(li);
+};
