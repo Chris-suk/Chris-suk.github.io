@@ -218,3 +218,27 @@ footer p {
     color: #5a1362;
     text-align: center;
 }
+/*greeting*/
+.morning {
+    font-family: 'Concert One', sans-serif;
+    color: #ffcc00;
+    text-align: center;
+  }
+
+  .afternoon {
+    font-family: 'Concert One', sans-serif;
+    color: #ff9900;
+    text-align: center;
+  }
+  .evening {
+    font-family: 'Concert One', sans-serif;
+    color: #5a1362;
+    text-align: center;
+  }
+
+  /*loop numbers*/
+  #numbers {
+    font-family: 'Concert One', sans-serif;
+    color: #5a1362;
+    margin-left: 40px;
+  }
